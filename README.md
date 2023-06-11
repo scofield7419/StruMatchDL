@@ -1,5 +1,6 @@
-Implementations of ICML 2022 paper [Matching Structure for Dual Learning](https://proceedings.mlr.press/v162/fei22a.html)
+**Implementations of ICML 2022 paper [Matching Structure for Dual Learning](https://proceedings.mlr.press/v162/fei22a.html)**
 
+------------
 
 # Requirements
 
