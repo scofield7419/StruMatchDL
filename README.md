@@ -2,12 +2,35 @@
 
 **The pytroch implementation of the ICML 2022 paper [Matching Structure for Dual Learning](https://proceedings.mlr.press/v162/fei22a.html)**
 
+
+------------
+
+🎉 Visit the project page: [SMDL](https://haofei.vip/SMDL/)
+
 ------------
 
 # Overview
 
+
+<p align="center">
+  <img src="./figures/intro.png" width="550"/>
+</p>
+
 >  Many natural language processing (NLP) tasks appear in dual forms, which are generally solved by dual learning technique that models the dualities between the coupled tasks. In this work, we propose to further enhance dual learning with structure matching that explicitly builds structural connections in between. Starting with the dual text↔text generation, we perform duallysyntactic structure co-echoing of the region of interest (RoI) between the task pair, together with a syntax cross-reconstruction at the decoding side. We next extend the idea to a text↔non-text setup, making alignment between the syntactic-semantic structure. Over 2*14 tasks covering 5 dual learning scenarios, the proposed structure matching method shows its significant effectiveness in enhancing existing dual learning. Our method can retrieve the key RoIs that are highly crucial to the
 task performance. Besides NLP tasks, it is also revealed that our approach has great potential in facilitating more non-text↔non-text scenarios.
+
+
+### Dually-Syntactic Structure Matching for text↔text dual learning
+<p align="center">
+  <img src="./figures/Fig2+3.png" width="900"/>
+</p>
+
+
+
+### Syntactic-Semantic Structure Matching for Text↔Non-Text dual learning
+<p align="center">
+  <img src="./figures/Fig4+5.png" width="900"/>
+</p>
 
 
 
